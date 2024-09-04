@@ -37,5 +37,10 @@ public class SanPham {
     public void setDonGia(double donGia) {
         this.donGia = donGia;
     }
+
+    @Override
+    public String toString() {
+        return "SanPham{" + "maso=" + maso + ", ten=" + ten + ", donGia=" + donGia + '}';
+    }
     
 }
