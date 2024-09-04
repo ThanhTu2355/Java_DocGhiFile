@@ -1,9 +1,11 @@
 /*
  */
-package com.mycompany.laptrinhio;
+package com.mycompany.baitap01;
+
+import java.io.Serializable;
 
 
-public class SanPham {
+public class SanPham implements Serializable{
     private String maso;
     private String ten;
     private double donGia;

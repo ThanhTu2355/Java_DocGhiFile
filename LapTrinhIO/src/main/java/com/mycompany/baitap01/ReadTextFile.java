@@ -1,6 +1,6 @@
 /*
  */
-package com.mycompany.laptrinhio;
+package com.mycompany.baitap01;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -23,14 +23,14 @@ public class ReadTextFile {
             }
 
             br.close();
-            System.out.println("Đã đọc xong");
-            System.out.println("Kết quả đọc được:");
+            System.out.println("Da doc xong");
+            System.out.println("Ket qua doc duoc:");
             for (SanPham x : ds) {
                 System.out.println(x);
             }
         } catch (Exception ex) {
-            System.out.println("Lỗi xảy ra: " + ex.toString());
-            System.out.println("Đọc file thất bại");
+            System.out.println("Loi xay ra: " + ex.toString());
+            System.out.println("Doc file that bai");
         }
     }
 }

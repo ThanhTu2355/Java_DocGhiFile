@@ -1,7 +1,7 @@
 /*
 
  */
-package com.mycompany.laptrinhio;
+package com.mycompany.baitap01;
 
 import java.io.*;
 import java.util.ArrayList;
